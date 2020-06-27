@@ -18,6 +18,8 @@ jobs:
       run: npm test
     - name: build
       run: npm run build
+      env:
+        PUBLIC_URL: https://dimaportyanka.github.io/movielist 
     - name: Deploy to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@master
       env:

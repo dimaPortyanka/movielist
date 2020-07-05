@@ -28,7 +28,7 @@ console.log(props)
             />
             <div className={theme.title}>{title}</div>
             <div className={theme.overview}>{overview}</div>
-            <img className={theme.poster} src={`https://image.tmdb.org/t/p/w220_and_h330_face${posterPath}`} />
+            <img className={theme.poster} alt="poster" src={`https://image.tmdb.org/t/p/w220_and_h330_face${posterPath}`} />
         </div>
     )
 }

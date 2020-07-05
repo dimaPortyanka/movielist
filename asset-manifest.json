@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "https://dimaportyanka.github.io/movielist/static/css/main.5f361e03.chunk.css",
-    "main.js": "https://dimaportyanka.github.io/movielist/static/js/main.a2b4dc95.chunk.js",
-    "main.js.map": "https://dimaportyanka.github.io/movielist/static/js/main.a2b4dc95.chunk.js.map",
+    "main.css": "https://dimaportyanka.github.io/movielist/static/css/main.02078e83.chunk.css",
+    "main.js": "https://dimaportyanka.github.io/movielist/static/js/main.2f268718.chunk.js",
+    "main.js.map": "https://dimaportyanka.github.io/movielist/static/js/main.2f268718.chunk.js.map",
     "runtime-main.js": "https://dimaportyanka.github.io/movielist/static/js/runtime-main.b67dfc02.js",
     "runtime-main.js.map": "https://dimaportyanka.github.io/movielist/static/js/runtime-main.b67dfc02.js.map",
-    "static/js/2.b2152a05.chunk.js": "https://dimaportyanka.github.io/movielist/static/js/2.b2152a05.chunk.js",
-    "static/js/2.b2152a05.chunk.js.map": "https://dimaportyanka.github.io/movielist/static/js/2.b2152a05.chunk.js.map",
+    "static/js/2.901f03cf.chunk.js": "https://dimaportyanka.github.io/movielist/static/js/2.901f03cf.chunk.js",
+    "static/js/2.901f03cf.chunk.js.map": "https://dimaportyanka.github.io/movielist/static/js/2.901f03cf.chunk.js.map",
     "index.html": "https://dimaportyanka.github.io/movielist/index.html",
-    "precache-manifest.2b7c0b80dacb3b70239cc54b94622d2c.js": "https://dimaportyanka.github.io/movielist/precache-manifest.2b7c0b80dacb3b70239cc54b94622d2c.js",
+    "precache-manifest.60022e73e7ff553d749e8e9cf5520837.js": "https://dimaportyanka.github.io/movielist/precache-manifest.60022e73e7ff553d749e8e9cf5520837.js",
     "service-worker.js": "https://dimaportyanka.github.io/movielist/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "https://dimaportyanka.github.io/movielist/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b2152a05.chunk.js.LICENSE.txt": "https://dimaportyanka.github.io/movielist/static/js/2.b2152a05.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "https://dimaportyanka.github.io/movielist/static/media/logo.5d5d9eef.svg"
+    "static/css/main.02078e83.chunk.css.map": "https://dimaportyanka.github.io/movielist/static/css/main.02078e83.chunk.css.map",
+    "static/js/2.901f03cf.chunk.js.LICENSE.txt": "https://dimaportyanka.github.io/movielist/static/js/2.901f03cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b67dfc02.js",
-    "static/js/2.b2152a05.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a2b4dc95.chunk.js"
+    "static/js/2.901f03cf.chunk.js",
+    "static/css/main.02078e83.chunk.css",
+    "static/js/main.2f268718.chunk.js"
   ]
 }

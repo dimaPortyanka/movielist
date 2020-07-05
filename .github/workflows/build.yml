@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ '12' ]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: npm install dependencies
+      run: npm i    
+    - name: run tests
+      run: npm test
+    - name: build
+      run: npm run build
+      env:
+        PUBLIC_URL: https://dimaportyanka.github.io/movielist 
+    - name: Deploy to GitHub Pages
+      uses: Cecilapp/GitHub-Pages-deploy@master
+      env:
+        EMAIL: portyanka.d@gmail.com
+        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BUILD_DIR: build
+    - name: Finish
+      run: echo App succesfully built

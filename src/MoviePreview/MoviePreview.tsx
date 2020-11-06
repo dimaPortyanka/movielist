@@ -14,7 +14,7 @@ const MoviePreview = (props: Movie): JSX.Element => {
         overview,
         poster_path: posterPath,
     } = props
-console.log(props)
+    
     return (
         <div
             className={theme.root}

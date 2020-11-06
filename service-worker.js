@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://dimaportyanka.github.io/movielist/precache-manifest.60022e73e7ff553d749e8e9cf5520837.js"
+  "https://dimaportyanka.github.io/movielist/precache-manifest.3da09aa038b42e9373f0154e9049bf46.js"
 );
 
 self.addEventListener('message', (event) => {
